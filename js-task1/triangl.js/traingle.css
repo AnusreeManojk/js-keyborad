@@ -1,0 +1,99 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.row-input {
+    padding: 20px;
+
+}
+
+.row-input span {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: 600;
+
+}
+
+.row-input input {
+    margin-left: 10px;
+}
+
+.buttons {
+    display: flex;
+    height: fit-content;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    width: 100px;
+    background-color: rgb(187, 213, 214);
+    border-radius: 5px;
+    border: none;
+}
+
+.circle {
+    font-family: monospace;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.circle-item {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 5px;
+    border: 1px solid #000;
+}
+
+.delay-input {
+    display: flex;
+}
+
+.delay-input span {
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    font-size: 16px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .buttons .start{
+  
+    font-weight: 600;
+}
+.buttons .stop{
+    font-weight: 600;
+    background-color: red;
+    color: #fff;
+}
+.circle{
+    background-color: pink;
+    margin-top: 50px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 20px;
+}
